@@ -1,0 +1,19 @@
+.main-screen {
+  margin: 30px var(--horizontal-space);
+}
+
+.gods-screen__channel-header {
+  margin-top: 20px;
+  border-top: var(--border);
+  padding-top: 10px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15px;
+  font-size: 14px;
+  font-weight: 300;
+  color: rgba(255, 255, 255, 0.4);
+}
+
+.gods-screen {
+  margin: 30px var(--horizontal-space);
+}

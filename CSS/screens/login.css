@@ -4,12 +4,6 @@
     url("/CSS/font/sinistre.woff") format("woff");
 }
 
-body {
-  color: white;
-  letter-spacing: 0px;
-  font-family: "Roboto", sans-serif;
-}
-
 .bg_img {
   display: flex;
   justify-content: center;
@@ -53,12 +47,12 @@ body {
 }
 
 .login-form input:not([type="submit"]) {
-  background: rgba(255, 255, 255, 0.4);
+  background: rgba(255, 255, 255, 0.3);
   transition: background 0.3s ease-in-out;
 }
 
 .login-form input:not([type="submit"]):focus {
-  background: rgba(255, 255, 255, 0.6);
+  background: rgba(255, 255, 255, 0.4);
 }
 
 .login-form input::placeholder {

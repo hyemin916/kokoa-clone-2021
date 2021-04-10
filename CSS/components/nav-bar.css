@@ -3,7 +3,7 @@
   bottom: 0;
   width: 100%;
   background-color: #1c1c1d;
-  padding: 17px 30px;
+  padding: 15px 25px;
   box-sizing: border-box;
   border-top: 1px solid rgba(0, 0, 0, 0.7);
 }
@@ -18,23 +18,36 @@
   position: relative;
 }
 .nav__notification {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: tomato;
-  width: 24px;
-  height: 24px;
-  border-radius: 12px;
-  font-weight: 600;
   position: absolute;
   left: 23px;
   bottom: 15px;
 }
 
-.nav__notification--small {
-  color: tomato;
-  font-size: 50px;
+@keyframes btnApearAnimation {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+.nav__li {
+  animation: btnApearAnimation 0.5s ease-in-out forwards;
+  opacity: 0;
+  transform: translatey(80px);
+}
+
+.nav__li:nth-child(2) {
+  animation-delay: 0.1s;
+}
+
+.nav__li:nth-child(3) {
+  animation-delay: 0.2s;
+}
+
+.nav__li:last-child {
   position: relative;
-  left: 48px;
-  bottom: 21px;
+  animation-delay: 0.3s;
 }
