@@ -1,7 +1,7 @@
 @font-face {
   font-family: "sinistre";
-  src: url("/CSS/font/sinistre.woff2") format("woff2"),
-    url("/CSS/font/sinistre.woff") format("woff");
+  src: url("/css/font/sinistre.woff2") format("woff2"),
+    url("/css/font/sinistre.woff") format("woff");
 }
 
 .bg_img {
